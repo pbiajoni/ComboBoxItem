@@ -1,15 +1,18 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <PackageLicenseFile>lictext.txt</PackageLicenseFile>
+    <PackageLicenseFile>vazio.txt</PackageLicenseFile>
     <Company>Pablo Biajoni</Company>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Description />
+    <Version>1.0.3</Version>
+    <AssemblyVersion>1.0.3.0</AssemblyVersion>
+    <FileVersion>1.0.3.0</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="..\..\..\..\Desktop\lictext.txt">
+    <None Include="..\..\..\..\..\Documents\vazio.txt">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>

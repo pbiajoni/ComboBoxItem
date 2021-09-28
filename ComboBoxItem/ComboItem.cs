@@ -11,6 +11,10 @@ namespace ComboBoxItem
         {
         }
 
+        public ComboItem(object tag)
+        {
+            Tag = tag;
+        }
         public ComboItem(string text, object tag)
         {
             Text = text ?? throw new ArgumentNullException(nameof(text));
@@ -26,7 +30,12 @@ namespace ComboBoxItem
 
         public override string ToString()
         {
-            return Text;
+            if (!string.IsNullOrEmpty(Text))
+            {
+                return Text;
+            }
+
+            return Tag.ToString();
         }
     }
 }

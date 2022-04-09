@@ -1,0 +1,7 @@
+﻿Este programa � distribu�do na esperan�a de que possa ser �til,
+mas SEM NENHUMA GARANTIA; sem uma garantia impl�cita de ADEQUA��O
+a qualquer MERCADO ou APLICA��O EM PARTICULAR. Veja a
+Licen�a P�blica Geral GNU para mais detalhes.
+
+Voc� deve ter recebido uma c�pia da Licen�a P�blica Geral GNU junto
+com este programa. Se n�o, veja <http://www.gnu.org/licenses/>.

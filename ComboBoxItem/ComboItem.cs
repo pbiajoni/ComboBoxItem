@@ -18,13 +18,12 @@ namespace ComboBoxItem
         public ComboItem(string text, object tag)
         {
             Text = text ?? throw new ArgumentNullException(nameof(text));
-            Tag = tag ?? throw new ArgumentNullException(nameof(tag));
         }
 
         public ComboItem(string text, object tag, string id)
         {
             Text = text ?? throw new ArgumentNullException(nameof(text));
-            Tag = tag ?? throw new ArgumentNullException(nameof(tag));
+            Tag = tag;
             Id = id ?? throw new ArgumentNullException(nameof(id));
         }
 

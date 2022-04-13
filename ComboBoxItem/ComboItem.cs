@@ -18,6 +18,7 @@ namespace ComboBoxItem
         public ComboItem(string text, object tag)
         {
             Text = text ?? throw new ArgumentNullException(nameof(text));
+            this.Tag = tag;
         }
 
         public ComboItem(string text, object tag, string id)
